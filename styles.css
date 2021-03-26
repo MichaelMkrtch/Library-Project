@@ -74,8 +74,8 @@ button:focus {
 
 .readBtn {
     font-size: 20px;
-    height: 35px;
-    width: 110px;
+    height: 80px;
+    width: 150px;
     margin-bottom: 20px;
     border-radius: 10px;
     border: solid 3px black;
@@ -107,8 +107,26 @@ button:focus {
 input#title {
     height: 30px;
     width: 200px;
-    font-size: 20px;
+    font-size: 18px;
     border: 1px solid black;
+}
+
+input#author {
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+input#pages {
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+label {
+    font-size: 25px;
 }
 
 input[type=checkbox] {
